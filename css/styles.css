@@ -1,1 +1,17 @@
-@import url('https://fonts.google.com/css2?family=Poppins:wght@400;600;700&disp')
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+nav{
+font-family: 'Ubuntu',sans-serif;
+}
+.logo{
+    font-size:35px;
+    font-weight: 600;
+}
+
+/* a{
+    text-decoration: none;
+} */
+li a, a {
+    color:rgb(7, 160, 194);
+    font-family: 'Ubuntu', sans-serif;
+}

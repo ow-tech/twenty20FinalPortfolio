@@ -7,10 +7,10 @@ font-family: 'Ubuntu',sans-serif;
     font-size:35px;
     font-weight: 600;
 }
+.active{
+    color:rgb(4, 4, 186);
+}
 
-/* a{
-    text-decoration: none;
-} */
 li a, a {
     color:rgb(7, 160, 194);
     font-family: 'Ubuntu', sans-serif;

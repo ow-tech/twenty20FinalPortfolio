@@ -41,14 +41,14 @@ li a, a {
     padding: 15px;
 
 }
-.btnColor{
+.contact_button, .btnColor{
    background-color:rgb(7, 160, 194); 
    color:whitesmoke;
    border-radius:3px;
    font-family: 'Ubuntu', sans-serif;
    display: inline-block;
 }
-.btnColor:hover{
+ .btnColor:hover{
     background-color: rgb(4, 4, 186);
 }
 
@@ -151,4 +151,14 @@ li a, a {
 }
 .work_img img:hover{
     transform:scale(1.1) ;
+}
+
+.contact_input{
+    width:100%;
+    font-size: 400;
+    font-family: 'Ubuntu', sans-serif;
+    padding:2px;
+    border-radius: 5px;
+    border: 1.5px solid;
+    margin-bottom: 25px;
 }

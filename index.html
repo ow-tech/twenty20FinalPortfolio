@@ -11,41 +11,40 @@
 </head>
 <body>
     <!-- header -->
-    <div class='relative'>
-        <nav class="navbar navbar-expand-lg bg-light  fixed-top">
-            <div class='  container'>
-                <a class="navbar-brand logo" href="#">Port<span style="color: rgb(4, 4, 186);">lio.</span></a>
-                <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-              
-                <div class="collapse navbar-collapse " id="navbarNav">
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item  pr-5 ">
-                      <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+    <!-- <div class='relative fixed-top'> -->
+    <nav class="navbar navbar-expand-lg bg-light sticky">
+        <div class='container'>
+            <a class="navbar-brand logo" href="#">Port<span style="color: rgb(4, 4, 186);">lio.</span></a>
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item  pr-5 ">
+                    <a class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item pr-5">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item pr-5">
+                    <a class="nav-link" href="#skills">Skills</a>
                     </li>
-                    <li class="nav-item pr-5">
-                      <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item pr-5">
-                        <a class="nav-link" href="#">Skills</a>
-                      </li>
-                    <li class="nav-item pr-5">
-                      <a class="nav-link" href="#">Work</a>
-                    </li>
-                    <li class="nav-item pr-5">
-                      <a class="nav-link " href="#">Contact</a>
-                    </li>
-                  </ul>
-                </div>
+                <li class="nav-item pr-5">
+                    <a class="nav-link" href="#work">Work</a>
+                </li>
+                <li class="nav-item pr-5">
+                    <a class="nav-link " href="#contact">Contact</a>
+                </li>
+                </ul>
             </div>
-        </nav>
-    </div>
-    
-    
+        </div>
+    </nav>
+    <!-- </div> -->
+    <div class='height' id='home'></div>
     <!--  main-->
-    <div class='container absolute'>
-        <section class='home bd-grid' id='home'>
+    <div class='container'>
+        <section class='home' >
             <div class="row">
                 <div class="col-md-4">
                     <div class='homeData'>
@@ -56,7 +55,6 @@
                     <div class='homeSocial'>
                         <a href="https://github.com/ow-tech"  target='_blank'class='homeSocialIcon'><i class='bx bxl-github'></i></a>
                         <a href="https://github.com/ow-tech"target='_blank' class='homeSocialIcon'><i class='bx bxl-linkedin' ></i></a>
-                        <a href="https://www.linkedin.com/in/alex-m-barasa-0700681a4/" class='homeSocialIcon'></a>
                     </div>
                 </div>
                 <div class="col-md-8" style="align-items: center;">
@@ -66,9 +64,11 @@
                 </div>
             </div>
         </section>
-        <div class='height'></div>
+        <div class='height' ></div>
+        <div class='height' id='about'></div>
+
         <!-- About -->
-        <div class='about' id='about'>
+        <div class='about'  >
             <h2 class='sectionTitle'>About</h2>
             <div class='row mt-5'>
                 <!-- <section class='about mt-5' id='about'> -->
@@ -84,9 +84,9 @@
                 <!-- </section> -->
             </div>   
         </div>
-        <div class='height'></div> 
+        <div class='height' id='skills'></div> 
         <!-- skills -->
-        <div class='skills' id='skills'>
+        <div class='skills' >
                <!-- <section class='skills mt-5 ' id='skills'> -->
             <h2 class='sectionTitle mt-5'>Skills</h2>
             <div class="skills_container">
@@ -177,10 +177,10 @@
     
             <!-- </section> -->
         </div>
-        <div class='height'></div> 
+        <div class='height' id='work'></div> 
 
         <!-- work  -->
-        <div class='work ' id='work'>
+        <div class='work ' >
             <h2 class='sectionTitle'>Work</h2>
             <div class="work_container row">
                 <div class='work_img col-md-3 m-2'>
@@ -224,9 +224,19 @@
                 </form>
             </div>
         </div>
-
+        <!-- footer -->
+     
     </div>
-
+    <footer class='footer'>
+        <p class='footerTitle'>Alex</p>
+        <div class="social">
+            <a href="https://github.com/ow-tech"  target='_blank'class='footer_icon'><i class='bx bxl-github'></i></a>
+            <a href="https://github.com/ow-tech"target='_blank' class='footer_icon'><i class='bx bxl-linkedin' ></i></a>
+            <a href="" class="footer_icon"><i class='bx bxl-facebook' ></i></a>
+            <a href="" class="footer_icon"><i class='bx bxl-instagram-alt' ></i><i class='bx bxl-twitter' ></i></a>
+        </div>
+        <p>&#169; 2020 copyright all right reserved</p>
+    </footer>
     <!-- footer -->
 
 

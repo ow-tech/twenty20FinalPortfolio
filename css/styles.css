@@ -132,3 +132,23 @@ li a, a {
 .skills_git{
     width:80%;
 }
+.work{
+    text-align: center;
+}
+
+.work_container{
+    display: inline-flex;
+    justify-content: space-around;
+}
+.work_img{
+    box-shadow: 0 4px 5px rgba(14, 36, 49, 15);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.work_img img{
+    transition: 1s;
+    cursor: pointer;
+}
+.work_img img:hover{
+    transform:scale(1.1) ;
+}

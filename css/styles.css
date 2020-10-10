@@ -18,9 +18,9 @@ li a, a {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.absolute{
+.relative{
     position: relative;
-    top:150px;
+    /* top:150px; */
     /* left: 10px; */
 }
 .home{
@@ -69,7 +69,66 @@ li a, a {
     /* width: 350px;  */
     border-radius: 50px;
 }
+/* .about, .skills{
+    height:75vh;
+} */
+.height{
+    height: 20vh;
+}
+.skills_container{
+    text-align: center;
+}
+.skills_subtitle{
+    margin-bottom: ;
+}
+.skills_title{
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif; 
+}
+.skills_data{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:relative;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    padding: .5rem 1rem;
+    margin-bottom: 10px;
+    border-radius:5px;
+    box-shadow:0 4px 25px rgba(14, 36, 45, 15);
+}
 
-.about{
-    height:85vh;
+.skills_icon{
+    margin-right:20px;
+    color:rgb(7, 160, 194);
+}
+.skill_names{
+    display: flex;
+    align-items: center;
+}
+.skills_bar{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color:rgb(7, 160, 194) ;
+    height:10px;
+    border-radius:5px;
+}
+.skills_html{
+    width:95%;
+}
+.skills_javascript{
+    width:75%;
+}
+.skills_python{
+    width:82%;
+}
+.skills_react{
+    width:62%;
+}
+.skills_django{
+    width:75%;
+}
+.skills_git{
+    width:80%;
 }

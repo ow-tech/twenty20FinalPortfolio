@@ -163,8 +163,14 @@ li a, a {
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     padding: 2rem 0;
+    margin-top: 5px;
 }
 .footerTitle{
     font-size:2rem;
     margin-bottom: 10px;
+}
+.contact_form{
+    width:360px;
+    margin: auto;
+
 }

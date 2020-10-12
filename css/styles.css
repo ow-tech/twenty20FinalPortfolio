@@ -185,7 +185,7 @@ li a, a {
     position:fixed;
     font-size: 50px;
     color:#00909e;
-    bottom: 1px;
+    bottom: 30px;
     right: 20px;
     text-align: center;
     line-height: 4px;
@@ -199,4 +199,8 @@ li a, a {
 .scroll-up-btn.show{
     opacity: 1;
     pointer-events:auto ;
+}
+.typing{
+    font-weight: 500;
+    font-family: 'Ubuntu',sans-serif;
 }

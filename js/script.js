@@ -63,4 +63,12 @@ $(document).ready(function(){
 $('.scroll-up-btn').click(()=>{
     $('html').animate({scrollTop: 0});
 })
+
+// typing animation
+var typed = new Typed(".typing",{
+    strings:['Web Designer', "Developer","Full Stack Enginner"],
+    typeSpeed:100,
+    backSpped:60,
+    loop:true
+});
  

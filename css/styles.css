@@ -143,6 +143,8 @@ li a, a {
     box-shadow: 0 4px 5px rgba(14, 36, 49, 15);
     border-radius: 5px;
     overflow: hidden;
+    height:250px;
+    width:350px;
 }
 .work_img img{
     transition: 1s;

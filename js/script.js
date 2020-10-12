@@ -71,4 +71,27 @@ var typed = new Typed(".typing",{
     backSpped:60,
     loop:true
 });
- 
+
+// sending mail
+
+function sendMail(){
+    let name = document.getElementById('name').value;
+    let email = document.getElementById('email').value;
+    let message = document.getElementById('message').value;
+    let inputs = document.querySelectorAll('input');
+    let textarea = document.querySelector('textarea')
+    if ((email ==="") && (message ==="")){
+        swal( "You need to fill your Atleast Your Email and Message. and Send Again.", "error");
+    }
+    else{
+    Email.send({
+        SecureToken :"b7759138-a0ae-4aae-8706-39524805e479",
+        To : 'alexbarasa0723@gmail.com',
+        From : email,
+        Subject : "This is name of the vistor in my port " + name,
+        Body : message,}).then(
+        message => 
+        swal("Alex Greets!", "Message Received!", "success"),
+        inputs.forEach((name, email, textarea) => name.value ='', email.value='', textarea.value='')
+        )}
+}

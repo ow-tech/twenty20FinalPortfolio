@@ -194,7 +194,7 @@
                     <img src='https://bit.ly/33NSbWu '>
                 </div>
                 <div class='work_img col-md-3 m-2'>
-                    <img src='https://bit.ly/33LEVl1 '>
+                    <img src='https://res.cloudinary.com/dameisncm/image/upload/v1601483957/pizza2_b2zdtn.png'>
                 </div>
                 <div class='work_img col-md-3 m-2'>
                     <img src='https://bit.ly/33LEVl1 '>
@@ -235,10 +235,10 @@
                 <div class="col-md-6">
                     <div class="contact_container">
                         <form action="" class="contact_form">
-                            <input type="text" placeholder='name' class='contact_input'>
-                            <input type="tmail" placeholder='Email' class='contact_input'>
-                            <textarea name="" id="" cols="30" rows="10" placeholder='message'class='contact_input'></textarea>
-                            <button class='contact_btn'>send</button>
+                            <input type="text" placeholder='name' id='name'class='contact_input'>
+                            <input id='email'type="tmail" placeholder='Email' class='contact_input'>
+                            <textarea name=""  id="message" cols="30" rows="10" placeholder='message'class='contact_input'></textarea>
+                            <button class='contact_btn' onclick="sendMail()">send</button>
                         </form>
                     </div>
                 </div>
@@ -281,6 +281,8 @@
             loop:true
             });
     </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     
 </body>
 </html>

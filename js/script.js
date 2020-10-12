@@ -29,7 +29,7 @@ const  sR = ScrollReveal({
 // download cv
 
 function download(){
-    window.location.href = 'Alex-Mulwa-Barasa-resume..pdf'
+    window.location.href = 'Alex-Mulwa-Barasa-Resume.pdf'
 }
 
 // scroll home

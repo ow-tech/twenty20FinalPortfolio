@@ -26,6 +26,12 @@ const  sR = ScrollReveal({
     reset:true
 })
 
+// download cv
+
+function download(){
+    window.location.href = 'Alex-Mulwa-Barasa-resume..pdf'
+}
+
 // scroll home
 sR.reveal('.homeTitle',{})
 sR.reveal('btnColor',{ delay:200})
@@ -48,6 +54,8 @@ sR.reveal('.work_img',{ interval: 200})
 
 // scroll contact
 sR.reveal('.contact_input',{ delay: 200})
+
+
 
 $(document).ready(function(){
     $(window).scroll(function(){

@@ -58,7 +58,11 @@ li a, a {
     text-align: center;
     text-decoration:underline #00909e solid ;
 }
-
+.aboutText{
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 500;
+    line-height: 50px;
+}
 .aboutImg {
     /* width: 350px;  */
     border-radius: 50px;

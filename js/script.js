@@ -48,3 +48,19 @@ sR.reveal('.work_img',{ interval: 200})
 
 // scroll contact
 sR.reveal('.contact_input',{ delay: 200})
+
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if(this.scrollY > 500){
+            $('.scroll-up-btn').addClass('show');
+        }else{
+            $('.scroll-up-btn').removeClass('show');
+        }
+    })
+})
+    
+// slide-up
+$('.scroll-up-btn').click(()=>{
+    $('html').animate({scrollTop: 0});
+})
+ 

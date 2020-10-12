@@ -58,19 +58,13 @@ li a, a {
     text-align: center;
     text-decoration:underline #00909e solid ;
 }
-.sectionTitle::after{
-    /* position: absolute;
-    content: "";
-    width: 20px;
-    height: 18px; */
-}
+
 .aboutImg {
     /* width: 350px;  */
     border-radius: 50px;
+    overflow: hidden;
 }
-/* .about, .skills{
-    height:75vh;
-} */
+
 .height{
     height: 20vh;
 }
@@ -78,7 +72,6 @@ li a, a {
     text-align: center;
 }
 .skills_subtitle{
-    margin-bottom: ;
 }
 .skills_title{
     font-weight: 500;
@@ -143,15 +136,17 @@ li a, a {
     box-shadow: 0 4px 5px rgba(14, 36, 49, 15);
     border-radius: 5px;
     overflow: hidden;
-    height:250px;
-    width:350px;
+    height:300px;
+    width: auto;
+    cursor: pointer;
 }
-.work_img img{
+.work_img a img{
     transition: 1s;
     cursor: pointer;
 }
 .work_img img:hover{
     transform:scale(1.1) ;
+    cursor: pointer;
 }
 
 .contact_input{
@@ -180,7 +175,6 @@ li a, a {
     margin-bottom: 10px;
 }
 .contact_form{
-    /* width:560px; */
     margin: auto;
 }
 .scroll-up-btn{

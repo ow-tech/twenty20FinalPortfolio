@@ -81,7 +81,7 @@ function sendMail(){
     let inputs = document.querySelectorAll('input');
     let textarea = document.querySelector('textarea')
     if ((email ==="") && (message ==="")){
-        swal( "You need to fill your Atleast Your Email and Message. and Send Again.", "error");
+        swal( "You need to fill your Atleast Your Email and Message.", "and Send Again.", "error");
     }
     else{
     Email.send({

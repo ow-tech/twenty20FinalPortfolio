@@ -49,6 +49,7 @@ sR.reveal('.skills_text',{ delay:200})
 sR.reveal('.skills_sub',{ })
 sR.reveal('.skills_img',{ delay: 400})
 
+
 // scrool work
 sR.reveal('.work_img',{ interval: 200})
 

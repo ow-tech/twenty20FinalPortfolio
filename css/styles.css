@@ -43,6 +43,18 @@ li a, a {
    font-family: 'Ubuntu', sans-serif;
    display: inline-block;
 }
+.whiteColor{
+    background-color: white;
+    color:black;
+    border: 1px solid #00909e ;
+}
+.darkColor{
+    background-color: black;
+    color: white;
+}
+.whiteColor:hover, .darkColor:hover{
+    transform: scale(1.1);
+}
 .contact_btn{
     outline: none;
     cursor: pointer;

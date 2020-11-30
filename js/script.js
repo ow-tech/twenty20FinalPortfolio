@@ -67,6 +67,21 @@ $(document).ready(function(){
         }
     })
 })
+// dark or light mode
+$(document).ready(function(){
+    $("button#black").click(function(){
+        $("body").css({
+            backgroundColor: 'black',
+            color:'white'
+        });
+    })
+    $("button#light").click(function(){
+        $("body").css({
+            backgroundColor: 'white',
+            color:"black"
+        });
+    })
+});
     
 // slide-up
 $('.scroll-up-btn').click(()=>{

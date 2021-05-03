@@ -29,7 +29,8 @@ const  sR = ScrollReveal({
 // download cv
 
 function download(){
-    window.location.href = 'Alex-Mulwa-Barasa-Resume.pdf'
+    // window.location.href = 'Alex-Mulwa-Barasa-Resume.pdf'
+    window.open('Alex-Mulwa-Barasa-Resume.pdf','_blank')|| window.replace('Alex-Mulwa-Barasa-Resume.pdf')
 }
 
 // scroll home

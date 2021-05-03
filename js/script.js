@@ -67,19 +67,32 @@ $(document).ready(function(){
         }
     })
 })
-// dark or light mode
+
+
 $(document).ready(function(){
+
+ 
     $("button#black").click(function(){
+        
         $("body").css({
             backgroundColor: 'black',
             color:'white'
-        });
-    })
+           
+        })
+        $("button#black").hide()
+       $("button#light").show()
+                
+    });
     $("button#light").click(function(){
+
         $("body").css({
             backgroundColor: 'white',
             color:"black"
-        });
+        })
+
+        $("button#black").show()
+        $("button#light").hide()
+        
     })
 });
     
@@ -90,7 +103,7 @@ $('.scroll-up-btn').click(()=>{
 
 // typing animation
 var typed = new Typed(".typing",{
-    strings:['Web Designer', "Developer","Full Stack Enginner"],
+    strings:['Web Designer',"Full Stack Enginner", "HACKER"],
     typeSpeed:100,
     backSpped:60,
     loop:true

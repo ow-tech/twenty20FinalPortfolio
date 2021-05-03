@@ -44,6 +44,7 @@ li a, a {
    display: inline-block;
 }
 .whiteColor{
+    display: none;
     background-color: white;
     color:black;
     border: 1px solid #00909e ;

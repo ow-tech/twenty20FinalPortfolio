@@ -103,12 +103,12 @@ $('.scroll-up-btn').click(()=>{
 })
 
 // typing animation
-var typed = new Typed(".typing",{
-    strings:['Web Designer',"Full Stack Enginner", "HACKER"],
-    typeSpeed:100,
-    backSpped:60,
-    loop:true
-});
+// var typed = new Typed(".typing",{
+//     strings:['Web Designer',"Full Stack Enginner", "HACKER"],
+//     typeSpeed:100,
+//     backSpped:60,
+//     loop:true
+// });
 
 // sending mail
 
